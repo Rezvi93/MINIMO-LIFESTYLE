@@ -1,0 +1,250 @@
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+/*Header section css*/
+
+.header{
+	width: 100%;
+	display: flow-root;
+}
+
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+
+.menu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 52px;
+}
+
+.menu-item ul li a{
+	color: #626262;
+	transition: 0.1s;
+}
+
+.menu-item ul li a:hover{
+	color: black;
+	
+}
+
+/*Banner section css*/
+
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+
+.post-content{
+	padding: 56px;
+}
+
+.catagory{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+.title{
+	color: #626262;
+	margin: 20px 0;
+}
+
+.desc{
+	color: #626262;
+	margin-bottom: 36px;
+}
+
+.comment{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+
+/*Gallery section css*/
+.posts{
+	width: 100%;
+	display: flow-root;
+}
+
+.gallery{
+	padding: 56px;
+}
+.post{
+	width: 100%;
+	float: left;
+}
+
+.left{
+	width: 48%;
+	float: left;
+}
+
+.right{
+	width: 48%;
+	float: right;
+}
+
+.post .catagory{
+	margin-top: 20px;
+}
+
+/*Subscription section css*/
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+	padding: 60px 0px;
+}
+
+.subscription h1{
+	margin-bottom: 40px;
+}
+
+input{
+	padding: 15px 20px;
+    width: 380px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+form input:focus{
+	outline: none;
+}
+
+form{
+	position: relative;
+}
+
+
+form i{
+	position: absolute;
+	top: 20px;
+    right: 362px;
+}
+
+/*2nd Post gallery css*/
+
+.button{
+	text-align: center;
+}
+
+.button button{
+	padding: 20px 40px;
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 500px;
+}
+
+/*Footer section css*/
+
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	padding: 35px 0px;
+}
+
+.footerbar{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+
+.terms{
+	width: 30%;
+	float: left;
+	
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+ul li a{
+	color: black;
+}
+
+
+.social{
+	width: 30%;
+	float: right;
+	text-align: right;
+	
+}
+
+.follow1{
+	color: #626262;
+	transition: 0.2s;
+}
+
+.follow1 i:hover{
+	color: #3c5a99;
+	transform: scale(2.5);
+	transition: 0.2s;
+
+}
+
+.follow2{
+	color: #626262;
+	transition: 0.2s;
+}
+
+.follow2 i:hover{
+	color: #2bb2e1;
+	transform: scale(2.5);
+	transition: 0.2s;
+
+}
+
+.follow3{
+	color: #626262;
+	transition: 0.2s;
+}
+
+.follow3 i:hover{
+	color: red;
+	transform: scale(2.5);
+	transition: 0.2s;
+
+}
+
+
+
